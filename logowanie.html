@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>LOGO</h1></a>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Mężczyzna</a></li>
+                <li><a href="#">Kobieta</a></li>
+                <li><a href="#">Dziecko</a></li>
+            </ul>
+        </nav>
+        <section>
+            <button onClick="window.location.href='logowanie.html'">Zaloguj</button>
+            <button onClick="window.location.href='zarejestruj.html'">Zarejestruj</button>
+        </section>
+    </header>
+    <main>
+        <section id="logowanie">    
+            <h1>Zaloguj się</h1>
+            <form id="formularz">
+                <div class="inputForm">
+                    <label for="email">Podaj email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="inputForm">    
+                    <label for="hasło">Podaj hasło: </label>
+                    <input type="password" id="hasło" required>
+                </div>
+                    <div id="buttonSection">
+                        <button id="btnAnuluj" onClick="window.location.href='index.html'">Anuluj</button>
+                        <button id="btnSubmit" type="submit">Wyślij</button>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            Wszelkie prawa zastrzeżone
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>

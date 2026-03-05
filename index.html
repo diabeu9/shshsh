@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>LOGO</h1></a>
+        <nav>
+            <ul>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Mężczyzna</a></li>
+                <li><a href="#">Kobieta</a></li>
+                <li><a href="#">Dziecko</a></li>
+            </ul>
+        </nav>
+        <section>
+            <button onClick="window.location.href='logowanie.html'">Zaloguj</button>
+            <button onClick="window.location.href='zarejestruj.html'">Zarejestruj</button>
+        </section>
+    </header>
+    <main>
+        <h1>Formualarz</h1>
+        <form id="formularz">
+            <label for="imię">Podaj imię: </label>
+            <input type="text" id="imię" required>
+            <label for="nazwisko">Podaj nazwisko: </label>
+            <input type="text" id="nazwisko" required>
+            <label for="email">Podaj email: </label>
+            <input type="email" name="email" id="email">
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </main>
+    <footer>
+        Wszelkie prawa zastrzeżone
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
