@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom mody</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="logowanie.css">
+    <link rel="stylesheet" href="zarejestruj.css">
 </head>
 
 <body>
@@ -28,9 +28,17 @@
         </section>
     </header>
     <main>
-        <section id="logowanie">
-            <h1>Zaloguj się</h1>
+        <section id="rejestracja">
+            <h1>Zarejestruj się</h1>
             <form id="formularz">
+                <div class="inputForm">
+                    <label for="imie">Imię: </label>
+                    <input type="text" name="imie" id="imie" placeholder="Wpisz swoje imię">
+                </div>
+                <div class="inputForm">
+                    <label for="nazwisko">Nazwisko: </label>
+                    <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz swoje nazwisko">
+                </div>
                 <div class="inputForm">
                     <label for="email">Email: </label>
                     <input type="email" name="email" id="email" placeholder="Wpisz swój email">
@@ -43,7 +51,6 @@
                     <button id="btnAnuluj" onClick="window.location.href='index.html'">Anuluj</button>
                     <button id="btnSubmit" type="submit">Wyślij</button>
                 </div>
-
             </form>
         </section>
     </main>
