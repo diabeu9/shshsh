@@ -48,5 +48,59 @@ footer{
     padding: 160px;
 }
 
+.nazwa{
+    display: flex;
+    flex-direction: column;
+}
 
+img{
+    min-width: 150px;
+}
 
+.nazwa-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-kup{
+    width: 75px;
+    justify-self: flex-end;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-kup{
+    width:75px;
+}
+
+.marka, .cena{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.model{
+    font-size: 16px;
+    color: rgb(223, 97, 24)
+}
+
+.btn-kup{
+    background-color:rgb(223, 97, 24);
+    border: 1px solid rgb(223, 97, 24);
+    border-radius: 5px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
